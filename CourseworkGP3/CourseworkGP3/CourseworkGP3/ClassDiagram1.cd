@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CourseworkGP3.ActionScreen" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEIAAAAAAgAAAAAAAAAAEAAgAAgABAAAAAAAAAA=</HashCode>
+      <FileName>ActionScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkGP3.EndScreen" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAEAAAAAEAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>EndScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkGP3.Game1" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAwANFIAUCYEiwgBLIEoBgUCQN8kAogAJjTQCQEIYgU=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseworkGP3.GameConstants" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jEAAAEEgAFAACACAAAABCAAAAAEAAACAAAACAAAAIAc=</HashCode>
+      <FileName>GameConstants.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseworkGP3.GameScreen" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAYAAEACBAAAAAAAEAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>GameScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseworkGP3.MenuComponent" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEIAIgAAAwQAQCAQIAgAAAAggAAABIAAAAAAAAA=</HashCode>
+      <FileName>MenuComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameScreen" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseworkGP3.Program" Collapsed="true">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CourseworkGP3.StartScreen" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAgAAAAEAAAAAEAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>StartScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="CourseworkGP3.Birds" Collapsed="true">
+    <Position X="11.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAABIBAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Birds.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="CourseworkGP3.Fruit" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAABIBAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fruit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="CourseworkGP3.Laser" Collapsed="true">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAAAABIBAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Laser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Game1" />
+    </ShowAsAssociation>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
